@@ -1,0 +1,17 @@
+.SidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.SidebarRow:hover{
+    background-color: #190422;
+    border-radius: 10px;
+}
+
+.SidebarRow > h4{
+    margin-left: 20px;
+    font-weight: 600;
+}

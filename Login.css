@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+  border:0;
+  padding:0;
+}
+
+.quote{
+  position: absolute;
+  color: white;
+  font-family: Sacramento, cursive;
+  font-size: xx-large;
+  top:10%;
+  left:5%;
+}
+
+.hozier{
+  position: absolute;
+  top:20%;
+  left: -5%; 
+}
+
+.login__text{
+  position: absolute;
+  left: 60%;
+  top:20%;
+  font-family: Poppins, sans-serif;
+  font-size: xxx-large;
+  font-weight: 800;
+  color: white;
+}
+
+.login>button{
+  position: absolute;
+  left: 65%;
+  top: 35%;
+  font-size: large;
+  font-family: Poppins, sans-serif;
+  background-color: teal;
+}
